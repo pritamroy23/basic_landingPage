@@ -1,3 +1,4 @@
+import "./APP.css"
 const App = () => {
   return (
     <div>

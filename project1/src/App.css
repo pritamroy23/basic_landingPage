@@ -4,3 +4,38 @@
 body {
   font-family: "Poppins" , sans-serif;
 }
+:root {
+  --red : #d01c28;
+  --gray: #2e2e2e;
+}
+*{
+  margin:0;
+}
+button {
+  all : unset;
+  width:80px;
+  height: 30px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--red);
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  
+
+}
+nav {
+  display: flex;
+  justify-content:space-between ;
+  width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 34px;
+}
